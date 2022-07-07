@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left|end"
+    android:textAlignment="viewEnd"
+    tools:ignore="RtlHardcoded">
+    <RelativeLayout
+        android:id="@+id/relativeLayoutParentaimon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:ignore="UselessParent">
+
+        <!-- this is the collapsed layout -->
+
+        <RelativeLayout
+            android:id="@+id/layoutCollapsedaimon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/floatLogoaimon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_aimbot_button_on"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutParentaimoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:ignore="UselessParent">
+
+        <!-- this is the collapsed layout -->
+
+        <RelativeLayout
+            android:id="@+id/layoutCollapsedaimoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/floatLogoaimoff"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_aimbot_button_off"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

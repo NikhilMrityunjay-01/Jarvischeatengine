@@ -5,4 +5,4 @@ Simply clone the repository or download zip -extract- and open in android studio
 * 70% of the code is in java rest 30 is in c++.
 Basic coding style used [Easy to understand]
 join telegram channel @Akatsukix1
-Features : All memory edits + sdk + bullet track +esp !
+Features : All memory edits + sdk + bullet track +esp [Latest] !
